@@ -12,117 +12,438 @@
 </head>
 
 <body>
-    <div class="wrapping">
-        <header>
-            <div class="header__bg">
-                <div class="container">
+<header>
+    <div class="container">
 
-                    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <div class="container-fluid">
-                        <div class="navbar__left d-flex align-items-center">
-                            <p>Ваш город Екатеринбург</p>
-                            <button type="button" class="btn btn-primary btn__navbar ms-5">Сменить город</button>
-                            <button type="button" class="btn btn-primary btn__navbar ms-2">Да, всё верно</button>
-                        </div>
-                    </div>
-                </nav> -->
+        <nav class="d-flex align-items-center flex-wrap justify-content-center py-3 pt-4">
+            <a href="#" class="d-flex align-items-center mb-3 mb-md-0  text-dark text-decoration-none">
+                <span class="logo me-5">level up</span>
+            </a>
+            <span class="me-md-auto nav__city">Екатеринбург</span>
 
-                    <nav class="navbar navbar-expand-lg d-flex align-items-center justify-content-between">
-                        <a href="#" class="nav__logo me-5 mb-2">level up</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <i class='bx bx-md bx-menu' style='color:#ffffff'></i>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="nav__list m-0 me-1 p-0">
-                                <li>
-                                    <a href="#" class="mb-2">
-                                        <i class='bx bx-detail me-2'></i> Все категории
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="mb-2">Станьте втором
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="mb-2">
-                                        <i class='bx bxs-heart me-2'></i> Избранное
-                                    </a>
-                                </li>
-                            </ul>
-                            <div
-                                class="nav__btn-group d-flex align-items-center justify-content-between my-2 ms-1 ms-md-0">
-                                <a class="mx-2 mx-lg-2 mx-md-0 mb-2" href="#">Войти </a>
-                                <a href="#" class="mb-2">Регистрация </a>
-                            </div>
-                        </div>
-                    </nav>
-                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                                class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                                aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                                aria-label="Slide 3"></button>
-                        </div>
-                        <div class="carousel-inner">
-                            <h1 class="mt-5 mb-4">Качаем знания дома</h1>
-                            <div class="carousel-item active">
-                                <p>Прокачайте себя и свою жизнь. Всего 14 часов помогут вам <br> обрести новые знания.
-                                    Прокачайте себя и свою жизнь. <br>
-                                    Всего 14 часов помогут вам обрести новые знания.</p>
-                            </div>
-                            <div class="carousel-item">
-                                <p>Прокачайте себя и свою жизнь. Всего 14 часов помогут вам <br> обрести новые знания.
-                                    Прокачайте себя и свою жизнь. <br>
-                                    Всего 14 часов помогут вам обрести новые знания.</p>
-                            </div>
-                            <div class="carousel-item">
-                                <p>Прокачайте себя и свою жизнь. Всего 14 часов помогут вам <br> обрести новые знания.
-                                    Прокачайте себя и свою жизнь. <br>
-                                    Всего 14 часов помогут вам обрести новые знания.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="header__card-group d-flex justify-content-between">
-                        <div class="card me-1 px-2 py-3 my-2">
-                            <div class="card-body">
-                                <h5 class="card-title">Курсы</h5>
-                                <p class="card-text">Узнавайте новое с помощью курсов выложенных у нас на платформе</p>
-                            </div>
-                        </div>
-                        <div class="card mx-1 px-2 py-3 my-2">
-                            <div class="card-body">
-                                <h5 class="card-title">Интенсивы</h5>
-                                <p class="card-text">Знания, советы и живое общение с оптыными специалистами</p>
-                            </div>
-                        </div>
-                        <div class="card ms-1 px-2 py-3 my-2">
-                            <div class="card-body">
-                                <h5 class="card-title">Вебинары</h5>
-                                <p class="card-text">Лучший способ узнать новое
-                                    и познакомиться с ведущим экспертом</p>
-                            </div>
-                        </div>
-                    </div>
+            <ul class="nav nav-pills align-items-center">
+                <li class="nav-item"><a href="#" class="nav-link p-0 me-5 nav__city">Стать автором</a></li>
+                <li class="nav-item">
+                    <button class="nav__btn"><a href="#" class="nav-link">Войти</a></button>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="header__heading">
+            <h1 class="mt-5">Прокачай себя</h1>
+            <p>Пора стать на уровень выше! Качайте свои знания и навыки, учитесь у лучших экспертов, осваивайте новые
+                направления и профессии. Двигайтесь вперед с level up!</p>
+        </div>
+
+        <div class="header__card-group">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Учитесь новому!</h5>
+                    <p class="card-text">Курсы, интенсивы, вебинары, марафоны в едином учебном пространстве</p>
                 </div>
-                <div class="header__input">
-                    <div class="container header__input-regan">
-                        <i class='bx bx-md bx-search' style='color:#ffffff'></i>
-                        <input type="text" placeholder="Чему ты хочешь научиться?">
-                    </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Консультируйтесь!</h5>
+                    <p class="card-text">Индивидуальные тренинги,
+                        частные уроки и беседы с ведущими экспертами в своих направлениях</p>
                 </div>
-        </header>
-    </div>
-
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Посещайте события!</h5>
+                    <p class="card-text">Мастер-классы, семинары,
+                        встречи с авторами и экспертами
+                        в вашем городе</p>
+                </div>
+            </div>
+        </div>
     </div>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script> -->
+    <div class="header__input-group">
+        <div class="container header__input-container">
+            <i class='bx bx-md bx-md bx-search' style='color:#ffffff'></i>
+            <input type="text" placeholder="Чему Вы хотите научиться?">
+        </div>
+    </div>
+
+</header>
+
+<section class="author">
+    <div class="container">
+
+        <h2 class="section__heading">Лучшие курсы от проверенных авторов</h2>
+        <p class="section__subtitle color-dark">Осваивайте новые области знаний и переходите на следующий уровень
+            мастерства вместе
+            с level up! <br>
+            Обучайтесь по самым современным программам от лучших экспертов в своих областях.
+        </p>
+
+        <h3 class="section__suptitle">Курсы по направлениям</h3>
+
+        <!--        slider onclick rebasing       -->
+
+        <div class="d-flex align-items-flex-start justify-content-between">
+            <div class="card border-0 card__img-relative" style="width: 24%">
+                <div class="author__card-transparent d-flex justify-content-between align-items-center">
+                    <div class="d-flex align-items-start fw-bold mb-1">В тренде</div>
+                    <button class="d-flex justify-content-center align-items-center border-0 bg-transparent"><i
+                            class='bx bx-heart p-0 m-0' style='color:#ffffff'></i></button>
+                </div>
+                <img src="assets/img/author__img-1.png" class="card-img-top" alt="...">
+                <span class="card__img-class">PRO</span>
+                <div class="card-body d-flex flex-column justify-content-between">
+                    <div class="d-flex align-items-center my-1">
+                        <img class="card__img" src="assets/img/author__img-profile.png" alt="">
+                        <p class="fs-5 card-title ms-2 my-1">Менеджмент</p>
+                    </div>
+                    <h5 class="fw-bold my-2">Методы управления проектами</h5>
+                    <div class="card__rating d-flex align-items-center my-1">
+                        <span>4.9</span>
+                        <div class="d-inline-flex ms-2 me-1">
+                            <i class='bx bx-star' style='color:#df943c'></i>
+                            <i class='bx bx-star' style='color:#df943c'></i>
+                            <i class='bx bx-star' style='color:#df943c'></i>
+                            <i class='bx bx-star' style='color:#df943c'></i>
+                            <i class='bx bx-star' style='color:#df943c'></i>
+                        </div>
+                        <span class="color-secondary">(12К)</span>
+                    </div>
+                    <div class="d-flex align-items-baseline justify-content-between mt-2">
+                        <h4 class="fw-bold m-0">1 999 ₽ </h4>
+                        <span class="card__span fs-6 text-decoration-line-through">3 999 ₽</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card border-0 card__img-relative" style="width: 24%">
+                <div class="author__card-transparent d-flex justify-content-between align-items-center">
+                    <div class="d-flex align-items-start fw-bold mb-1">Новое</div>
+                    <button class="d-flex justify-content-center align-items-center border-0 bg-transparent"><i
+                            class='bx bx-heart p-0 m-0' style='color:#ffffff'></i></button>
+                </div>
+                <img src="assets/img/Rectangle%201621-1.png" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column justify-content-between">
+                    <div class="d-flex align-items-center my-1">
+                        <img class="card__img" src="assets/img/Ellipse%201-1.png" alt="">
+                        <p class="fs-5 card-title ms-2 my-1">Менеджмент</p>
+                    </div>
+                    <h5 class="fw-bold mt-2 mb-1">Тайм-менеджмент</h5>
+                    <div class="card__rating d-flex align-items-center mt-4">
+                        <span>4.0</span>
+                        <div class="d-inline-flex ms-2 me-1">
+                            <i class='bx bx-star' style='color:#df943c'></i>
+                            <i class='bx bx-star' style='color:#df943c'></i>
+                            <i class='bx bx-star' style='color:#df943c'></i>
+                            <i class='bx bx-star' style='color:#df943c'></i>
+                            <i class='bx bx-star' style='color:#df943c'></i>
+                        </div>
+                        <span class="color-secondary">(12К)</span>
+                    </div>
+                    <div class="d-flex align-items-baseline justify-content-between mt-2">
+                        <h4 class="fw-bold m-0">Бесплатно </h4>
+                        <p class="card__span fs-6 text-decoration-line-through">3 999 ₽</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card border-0 card__img-relative" style="width: 24%">
+                <div class="author__card-transparent d-flex justify-content-between align-items-center">
+                    <div class="d-flex align-items-start fw-bold mb-1">Хит!</div>
+                    <button class="d-flex justify-content-center align-items-center border-0 bg-transparent"><i
+                            class='bx bx-heart p-0 m-0' style='color:#ffffff'></i>
+                    </button>
+                </div>
+                <img src="assets/img/Rectangle%201621-2.png" class="card-img-top" alt="...">
+                <span class="card__img-class">PRO</span>
+                <div class="card-body d-flex flex-column justify-content-between">
+                    <div class="d-flex align-items-center my-1">
+                        <img class="card__img" src="assets/img/Ellipse%201-2.png" alt="">
+                        <p class="fs-5 card-title ms-2 my-1">Менеджмент</p>
+                    </div>
+                    <h5 class="fw-bold my-2">Эффективная постановка целей и задач</h5>
+                    <div class="card__rating d-flex align-items-center my-1">
+                        <span>4.5</span>
+                        <div class="d-inline-flex ms-2 me-1">
+                            <i class='bx bx-star' style='color:#df943c'></i>
+                            <i class='bx bx-star' style='color:#df943c'></i>
+                            <i class='bx bx-star' style='color:#df943c'></i>
+                            <i class='bx bx-star' style='color:#df943c'></i>
+                            <i class='bx bx-star' style='color:#df943c'></i>
+                        </div>
+                        <span class="color-secondary">(23)</span>
+                    </div>
+                    <div class="d-flex align-items-baseline justify-content-between mt-2">
+                        <h4 class="fw-bold m-0">12 300 ₽ </h4>
+                        <p class="card__span fs-6 text-decoration-line-through">3 999 ₽</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card border-0 card__img-relative" style="width: 24%">
+                <div class="author__card-transparent d-flex justify-content-between align-items-center">
+                    <div class="d-flex align-items-start fw-bold mb-1">В тренде</div>
+                    <button class="d-flex justify-content-center align-items-center border-0 bg-transparent"><i
+                            class='bx bx-heart p-0 m-0' style='color:#ffffff'></i></button>
+                </div>
+                <img src="assets/img/Rectangle%201621.png" class="card-img-top" alt="...">
+                <span class="card__img-class">PRO</span>
+                <div class="card-body d-flex flex-column justify-content-between">
+                    <div class="d-flex align-items-center my-1">
+                        <img class="card__img" src="assets/img/Ellipse%201.png" alt="">
+                        <p class="fs-5 card-title ms-2 my-1">Менеджмент</p>
+                    </div>
+                    <h5 class="fw-bold my-2">Управление сложными проектами</h5>
+                    <div class="card__rating d-flex align-items-center my-1">
+                        <span>5.0</span>
+                        <div class="d-inline-flex ms-2 me-1">
+                            <i class='bx bx-star' style='color:#df943c'></i>
+                            <i class='bx bx-star' style='color:#df943c'></i>
+                            <i class='bx bx-star' style='color:#df943c'></i>
+                            <i class='bx bx-star' style='color:#df943c'></i>
+                            <i class='bx bx-star' style='color:#df943c'></i>
+                        </div>
+                        <span class="color-secondary">(1.5К)</span>
+                    </div>
+                    <div class="d-flex align-items-baseline justify-content-between mt-2">
+                        <h4 class="fw-bold m-0">5 290 ₽ </h4>
+                        <p class="card__span fs-6 text-decoration-line-through">12 999 ₽</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="section__btn">Подобрать курс</button>
+
+    </div>
+
+</section>
+
+<section class="expert">
+    <div class="container">
+
+        <h2 class="section__heading">Консультации ведущих экспертов </h2>
+        <p class="section__subtitle">Общайтесь напрямую с авторами курсов и обучающих программ! Закажите индивидуальную
+            консультацию он-лайн или запланируйте встречу в офф-лайн формате.
+        </p>
+
+        <h3 class="section__suptitle">Топ авторов</h3>
+
+        <div class="expert__img-group">
+            <div class="card__profile">
+                <span>PRO</span>
+                <img class="mt-1 mb-3" src="assets/img/expert__profile-img.png" alt="">
+                <div class="fw-bold flex-column m-auto">
+                    <p class="text-center fs-5">Иванов</p>
+                    <p class="fs-5 text-center">Смоленский</p>
+                </div>
+                <p class="fs-5 mt-2 text-secondary text-center">Маркетинг</p>
+            </div>
+            <div class="card__profile">
+                <span>PRO</span>
+                <img class="mt-1 mb-3" src="assets/img/expert__profile-img2.png" alt="">
+                <div class="fw-bold flex-column m-auto">
+                    <p class="text-center fs-5">Анастасия</p>
+                    <p class="fs-5 text-center">Пантеонова</p>
+                </div>
+                <p class="fs-5 mt-2 text-secondary text-center">Бизнес</p>
+            </div>
+            <div class="card__profile">
+                <span>PRO</span>
+                <img class="mt-1 mb-3" src="assets/img/Ellipse%2077.png" alt="">
+                <div class="fw-bold flex-column m-auto">
+                    <p class="text-center fs-5">Иван</p>
+                    <p class="fs-5 text-center">Констатинополь</p>
+                </div>
+                <p class="fs-5 mt-2 text-secondary text-center">Дизайн</p>
+            </div>
+            <div class="card__profile">
+                <span>PRO</span>
+                <img class="mt-1 mb-3" src="assets/img/Ellipse%2077-1.png" alt="">
+                <div class="fw-bold flex-column m-auto">
+                    <p class="text-center fs-5">Евгений</p>
+                    <p class="fs-5 text-center">Гришанов</p>
+                </div>
+                <p class="fs-5 mt-2 text-secondary text-center">IT</p>
+            </div>
+            <div class="card__profile">
+                <span>PRO</span>
+                <img class="mt-1 mb-3" src="assets/img/Ellipse%2077-2.png" alt="">
+                <div class="fw-bold flex-column m-auto">
+                    <p class="text-center fs-5">Анна</p>
+                    <p class="fs-5 text-center">Сомойлинская</p>
+                </div>
+                <p class="fs-5 mt-2 text-secondary text-center">Здоровье</p>
+            </div>
+        </div>
+        <button class="section__btn mt-5">Подобрать курс</button>
+    </div>
+</section>
+
+<div class="container redline__top">
+    <section class="redline">
+        <h3>
+            Станьте автором!
+        </h3>
+        <div class="redline__div">
+            <p>Поделитесь с другими своим опытом и уникальными навыками. <br>
+                Преподавайте то, что любите, вместе с level up! <br>
+                Попробуйте, за это платят деньги.</p>
+            <button>Создать курс</button>
+        </div>
+    </section>
+</div>
+
+<section class="interest__town">
+    <div class="container">
+        <h2 class="section__heading">Самые интересные события в вашем городе </h2>
+        <p class="section__subtitle">Посещайте мастер-классы, семинары, тренинги, организуемые нашими экспертами.
+            Отслеживайте самые значимые события от авторов level up, чтобы узнавать новое, знакомиться и общаться с
+            единомышленниками.
+        </p>
+
+        <div class="d-flex align-items-center justify-content-between mb-5">
+            <h3 class="section__suptitle mb-0">Топ событий</h3>
+            <div class="d-flex align-items-center"><a href="#">Екатеринбург
+                <i class='bx bxs-map mx-2' style='color:#2f80ed'></i></a></div>
+        </div>
+        <div class="interest__group d-flex align-items-center justify-content-between  my-2">
+            <ul class="pagination pagination-lg">
+                <li class="page-item" aria-current="page">
+                    <span class="page-link">1</span>
+                </li>
+                <li class="page-item active"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+            </ul>
+            <div class="d-flex align-items-center"><a href="#">Екатеринбург
+                <i class='bx bxs-map mx-2' style='color:#2f80ed'></i></a></div>
+
+        </div>
+        <div class="d-flex align-items-flex-start justify-content-between">
+            <div class="card border-0 d-flex flex-column justify-content-between card__img-relative" style="width: 32%;">
+                <div class="author__card-transparent d-flex justify-content-between align-items-center">
+                    <div class=" d-flex align-items-start fw-bold mb-1">Мастер-класс</div>
+                    <button class="d-flex justify-content-center align-items-center border-0 bg-transparent"><i
+                            class='bx bx-heart p-0 m-0' style='color:#ffffff'></i></button>
+                </div>
+                <img src="assets/img/author__img-1.png" class="card-img-top" alt="...">
+                <span class="card__img-class card__img-parent">PRO</span>
+                <div class="card-body">
+                    <div class="d-flex align-items-center">
+                        <img class="card__img" src="assets/img/author__img-profile.png" alt="">
+                        <p class="fs-6 card-title ms-3 m-0">Предпринимательство</p>
+                    </div>
+                    <h5 class="fw-bold my-3 pe-2">Разработка бизнес-плана для стартапа</h5>
+                    <div class="d-flex align-items-center">
+                        <i class='bx bx-sm bxs-calendar-alt me-2' style='color:#2F80ED'></i> 3 сентября, Пт.
+                    </div>
+                    <div class="d-flex align-items-flex-start my-1">
+                        <i class='bx bx-sm bxs-time-five me-2' style='color:#2f80ed'  ></i> 19:30
+                        -
+                        21:00
+                    </div>
+                    <div class="d-flex align-items-flex-start my-1">
+                        <i class='bx bx-sm bxs-map me-2' style='color:#2f80ed' ></i> Творческое пространство <br> “Ткачи”ул. Краснопутиловская, <br> д.1,
+                        корп.1,
+                        основной холл
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between mt-4">
+                        <h4 class="fw-bold m-0">600 ₽ </h4>
+                        <p class="card__span fs-5 text-decoration-line-through">3 999 ₽</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card border-0 d-flex flex-column justify-content-between card__img-relative" style="width: 32%;">
+                <div class="author__card-transparent d-flex justify-content-between align-items-center">
+                    <div class="d-flex align-items-start fw-bold mb-1">Семинар</div>
+                    <button class="d-flex justify-content-center align-items-center border-0 bg-transparent"><i
+                            class='bx bx-heart p-0 m-0' style='color:#ffffff'></i></button>
+                </div>
+                <img src="assets/img/author__img-1.png" class="card-img-top" alt="...">
+                <span class="card__img-class card__img-parent">PRO</span>
+                <div class="card-body">
+                    <div class="d-flex align-items-center">
+                        <img class="card__img" src="assets/img/author__img-profile.png" alt="">
+                        <p class="fs-6 card-title ms-3 m-0">Предпринимательство</p>
+                    </div>
+                    <h5 class="fw-bold my-3 pe-2">Разработка бизнес-плана для стартапа</h5>
+                    <div class="d-flex align-items-center">
+                        <i class='bx bx-sm bxs-calendar-alt me-2' style='color:#2F80ED'></i> 3 сентября, Пт.
+                    </div>
+                    <div class="d-flex align-items-center my-1">
+                        <i class='bx bx-sm bxs-time-five me-2' style='color:#2f80ed'  ></i> 19:30
+                        -
+                        21:00
+                    </div>
+                    <div class="d-flex align-items-flex-start my-1 mb-5">
+                        <i class='bx bx-sm bxs-map me-2 mb-4' style='color:#2f80ed' ></i> БЦ “Треугольник” <br>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between mt-5">
+                        <h4 class="fw-bold m-0">Бесплатно</h4>
+                        <p class="card__span fs-5 text-decoration-line-through">1 999 ₽</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card border-0 d-flex flex-column justify-content-between card__img-relative" style="width: 32%;">
+                <div class="author__card-transparent d-flex justify-content-between align-items-center">
+                    <div class="d-flex align-items-start fw-bold mb-1">Встреча с автором</div>
+                    <button class="d-flex justify-content-center align-items-center border-0 bg-transparent"><i
+                            class='bx bx-heart p-0 m-0' style='color:#ffffff'></i></button>
+                </div>
+                <img src="assets/img/author__img-1.png" class="card-img-top" alt="...">
+                <span class="card__img-class card__img-parent">PRO</span>
+                <div class="card-body">
+                    <div class="d-flex align-items-center">
+                        <img class="card__img" src="assets/img/author__img-profile.png" alt="">
+                        <p class="fs-6 card-title ms-3 m-0">Предпринимательство</p>
+                    </div>
+                    <h5 class="fw-bold my-3 pe-2">Разработка бизнес-плана для стартапа</h5>
+                    <div class="d-flex align-items-center my-1">
+                        <i class='bx bx-sm bxs-calendar-alt me-2' style='color:#2F80ED'></i> 3 сентября, Пт.
+                    </div>
+                    <div class="d-flex align-items-center my-1">
+                        <i class='bx bx-sm bxs-time-five me-2' style='color:#2f80ed'  ></i> 19:30
+                        -
+                        21:00
+                    </div>
+                    <div class="d-flex align-items-flex-start my-1">
+                        <i class='bx bx-sm bxs-map me-2' style='color:#2f80ed' ></i> Творческое пространство <br> “Ткачи”ул. Краснопутиловская, <br> д.1,
+                        корп.1,
+                        основной холл
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between mt-4">
+                        <h4 class="fw-bold m-0">1 999 ₽ </h4>
+                        <p class="card__span fs-5 text-decoration-line-through">2 999 ₽</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="section__btn">Больше событий</button>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="d-flex justify-content-between">
+            <ul>
+                <li>© Level UP, 2020 Все права защищены.</li>
+                <li><br></li>
+                <li><a href="#">Публичная оферта</a></li>
+                <li><a href="#">Пользовательское соглашение</a></li>
+            </ul>
+            <ul>
+                <li>О проекте</li>
+                <li>Конфиденциальность</li>
+            </ul>
+            <ul>
+                <li>Сообщить о проблеме</li>
+            </ul>
+        </div>
+
+    </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
 </body>
 
 </html>
